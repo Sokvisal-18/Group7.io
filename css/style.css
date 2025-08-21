@@ -1,0 +1,316 @@
+@font-face{
+    src: url(../fonts/Ubuntu-Regular.ttf);
+    font-family: 'ubuntu-regular';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(23, 21, 36);
+}
+.container .content img{
+    width: 100%;
+    height: 725px;
+    padding-top: 30px;
+    object-fit: cover;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.container .header{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 10px 0px 5px 2px;
+    background-color: rgb(23, 21, 36);
+}
+.container .header .logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+    
+}
+.container .header .menu .menu-list{
+    /* background-color: gray; */
+    width: 55%;
+    height: 100%;
+    float: left;
+    margin-left: 8%;
+}
+.container .header .menu .menu-list ul li{
+    list-style-type: none;
+}
+/* .container .header .menu .menu-list ul li a:hover{
+    color: chocolate;
+    transition: 0.1s;
+} */
+.container .header .menu .menu-list ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 35px 30px;
+    color: white;
+    float: left;
+    font-family: Khmer OS Battambang;
+}
+.container .header .menu .menu-icon ul li{
+    display: block;
+    padding: 30px 15px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px 5px;
+    float: right;
+    /* background-color: antiquewhite; */
+    margin-right: 30px;
+}
+.container .header .menu .menu-icon ul li a{
+    /* padding: 30px 15px; */
+    color: white;
+    display: block;
+   
+}
+.container .content .content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 30px;
+}
+.container .content .content-title h1 u{
+    margin-left: 45%;
+    color: orange;
+    margin-top: 20px;
+    font-family: Khmer OS Battambang;
+}
+.container .content .bakery h2{
+    font-size: 30px;
+    margin-left: 5%;
+    font-family: Khmer OS Battambang;
+    padding-top: 50px;
+    color: white;
+}
+.container .content .images{
+    max-width: 95%;
+    height: 872px;
+    margin: auto;
+    
+}
+.container .content .images .box{
+    width: 22.3%;
+    height: 250px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 2%;
+    border-radius: 5px;
+    color: white;
+    font-family: Khmer OS Battambang;
+    font-size: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 2px;
+    color: rgb(183, 183, 183);
+}
+
+.container .content .images .box .t{
+    width: 100%;
+    height: 35px;
+    color: white;
+}
+.container .content .images .box p{
+    color: white;
+}
+
+.container .content .images .box a i {
+    font-size: 30px;
+}
+.container .content .images .box img{
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+.container .content .images .box a{
+    width: 25%;
+    height: 50px;
+    float: right;
+    margin-top: -40px;
+    color: white;
+    
+    
+}
+.container .content .cake{
+    max-width: 95%;
+    height: 655px;
+    margin: auto;       
+}
+.container .content .cake .cakea h2{
+    font-size: 30px;
+    margin-left: 2.5%;
+    font-family: Khmer OS Battambang;
+    color: white;
+}
+.container .content .cake .cakeb .box2{
+    width: 22.3%;
+    height: 250px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px;
+    color: rgb(183, 183, 183);
+}
+.container .content .cake .cakeb .box2 img{
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+}
+.container .content .cake .cakeb .box2 .t{
+    width: 100%;
+    height: 35px;
+} 
+.container .content .cake .cakeb .box2 p{
+    color: white;
+    font-family: Khmer OS Battambang;
+    font-size: 18px;
+}
+.container .content .cake .cakeb .box2 a{
+    width: 25%;
+    height: 50px;
+    float: right;
+    margin-top: -40px;
+    color: white;
+}
+.container .content .cake .box2 a i{
+    font-size: 30px;
+}
+
+/* -------------drinks----------------- */
+.container-drinks .header-drinks {
+    background-color: rgb(23, 19, 19);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+/* --------aboutus----------- */
+/* .container .content-aboutus{
+} */
+.container .content-aboutus .borderbox{
+    width: 300px;
+    height: 340px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px;
+    color: rgb(183, 183, 183);
+}
+.container .content-aboutus h2{
+    text-align: center;
+    color: lightblue;
+    font-size: 38px;
+    font-family: Khmer OS Battambang;
+}
+.container .content-aboutus p{
+    margin-left: 46px;
+    color: white;
+    font-size: 23px;
+    font-family: Khmer OS Battambang;
+    font-weight: bold;
+}
+/* -------------contact--------------------------------- */
+.container .content-contact{
+
+    width: 40%;
+    height: 560px;
+    margin-top: 10%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 2px;
+    color: rgb(183, 183, 183);
+    text-align: center;
+    margin: auto;
+}
+.container .content-contact h2{
+    font-weight: bold;
+    color: lightblue;
+    font-size: 42px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #8c8c8c;
+}
+/* ------form------------------ */
+.container .content-contact form{
+    color: lightblue;
+    font-family: 'ubuntu-regular';
+}
+.container .content-contact form label{
+    margin-left: 29px;
+    float: left;
+    margin-bottom: 14px;
+    font-size: 20px;
+}
+.container .content-contact form input{
+    display: block;
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 0px 5px 2px;
+    color: rgb(183, 183, 183);
+    margin-left: 5%;
+    font-size: 24px;
+    padding-left: 12px;
+    font-family: 'ubuntu-regular';
+}
+.container .content-contact form input:focus{
+    display: block;
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 0px 5px 2px;
+    color: rgb(183, 183, 183);
+    margin-left: 5%;
+    font-size: 16px;
+    font-family: Khmer OS Battambang;
+    transform: scale(1.05);
+}
+.container .content-contact form button{
+    background-color: rgb(150, 158, 150);
+    font-family: 'ubuntu-regular';
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 122px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.container .content-contact form button:hover{
+    background-color: rgb(150, 158, 150);
+    font-family: 'ubuntu-regular';
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 122px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(49, 96, 49);
+    border-radius: 10px;
+}
+/* -----------contact bottom--------- */
+.container .contact-content2{
+    border-radius: 5px;
+    margin: auto;
+    background-color: #4c4c4e;
+    width: 226px;
+    height: auto;
+}
